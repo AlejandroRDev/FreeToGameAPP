@@ -1,0 +1,11 @@
+<h2>Games</h2>
+<div class="btn-container">
+<button (click)="sortGamesByTitle()">Title Filter</button>
+<button (click)="reset()">Reset Filters</button>
+</div>
+<div *ngIf="games.length" class="games-container">
+    <div *ngFor="let game of games" class="games-container__card" style="background-image: url({{game.thumbnail}}); background-size: cover; background-position: center;" routerLink="{{game.id}}">
+        
+
+    </div>
+</div>

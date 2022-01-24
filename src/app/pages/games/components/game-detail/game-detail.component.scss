@@ -1,0 +1,17 @@
+.game-container{
+    height: 100vh;
+    p {
+    padding: 20px;
+    font-family: 32px;
+
+    }
+    h2 {
+        padding: 50px;
+    }
+    .game-container__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

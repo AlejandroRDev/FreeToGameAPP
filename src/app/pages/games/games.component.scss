@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+    margin: 0;
+   font-size: 1.8rem;
+   padding: 40px;
+}
+.btn-container {
+    display: flex;
+    max-width: 100vw;
+    justify-content: center;
+    button {
+        padding: 5px;
+        margin: 15px 25px 15px 15px;
+        color: #a2aaaa;
+        background-color: inherit;
+        font-weight: bold;
+    }
+}
+
+.games-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+    &__card {
+        border: solid 2px black;
+        border-radius: 10px;
+        margin: 20px;
+        height: 200px;
+        width: 20%;
+    }
+}
