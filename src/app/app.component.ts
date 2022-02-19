@@ -19,10 +19,6 @@ export class AppComponent {
     {
       name: "Register",
       link: "/register"
-    },
-    {
-      name: "About",
-      link: "/about"
     }
   ];
   public footer: FooterInterface = {
